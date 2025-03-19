@@ -1,0 +1,44 @@
+.pageContainer {
+  background-color: var(--color-light);
+}
+
+.page {
+  max-width: 1440px;
+  padding: 60px 100px;
+  margin: 0 auto;
+  background-color: var(--color-white);
+}
+
+.startScreen {
+  display: flex;
+  justify-content: space-between;
+}
+
+.greeting {
+  max-width: 530px;
+}
+
+.cover {
+  width: 630px;
+  height: 450px;
+  object-fit: contain;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 60px;
+  margin-bottom: 35px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 50px 0;
+}
