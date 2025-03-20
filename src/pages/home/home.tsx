@@ -1,5 +1,5 @@
 import { Card } from "../../components/card/card.tsx";
-import { routes } from "../../common/router.tsx";
+import { paths } from "../../common/router/routing.tsx";
 import s from "./home.module.scss";
 
 export const HomePage = () => {
@@ -25,19 +25,19 @@ export const HomePage = () => {
             header={"GSAP Animation 1"}
             image={"/card-cover.png"}
             variant={"light"}
-            link={routes.footerAnimation}
+            link={paths.footerAnimation}
           />
           <Card
             header={"GSAP Animation 2"}
             image={"/card-cover.png"}
             variant={"dark"}
-            link={routes.footerAnimation}
+            link={paths.pinAnimation}
           />
           <Card
             header={"GSAP Animation 3"}
             image={"/card-cover.png"}
             variant={"color"}
-            link={routes.footerAnimation}
+            link={paths.footerAnimation}
           />
         </div>
       </div>

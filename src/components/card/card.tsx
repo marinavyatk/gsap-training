@@ -2,6 +2,7 @@ import { clsx } from "clsx";
 import { ComponentPropsWithoutRef } from "react";
 import s from "./card.module.scss";
 import Arrow from "../../assets/arrow.svg?react";
+import { Link } from "react-router";
 
 type CardTheme = "light" | "dark" | "color";
 
@@ -23,10 +24,10 @@ export const Card = (props: CardProps) => {
   } = props;
   const classNames = clsx(s.card, s[variant], className);
   return (
-    <a
+    <Link
       {...restProps}
       className={classNames}
-      href={link}
+      to={link}
       aria-label={`See more about ${header}`}
     >
       <div className={s.textContainer}>
@@ -39,6 +40,6 @@ export const Card = (props: CardProps) => {
         </div>
       </div>
       <img src={image} alt="" className={s.image} />
-    </a>
+    </Link>
   );
 };

@@ -1,9 +1,9 @@
-import { HomePage } from "./pages/home/home.tsx";
+import { AppRoutes } from "./common/router/routes.tsx";
 
 function App() {
   return (
     <>
-      <HomePage />
+      <AppRoutes />
     </>
   );
 }
