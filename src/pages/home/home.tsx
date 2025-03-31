@@ -22,7 +22,7 @@ export const HomePage = () => {
 
         <div className={s.links}>
           <Card
-            header={"GSAP Animation 1"}
+            header={"Footer  Animation"}
             image={"/card-cover.png"}
             variant={"light"}
             link={paths.footerAnimation}
@@ -37,7 +37,7 @@ export const HomePage = () => {
             header={"GSAP Animation 3"}
             image={"/card-cover.png"}
             variant={"color"}
-            link={paths.footerAnimation}
+            link={paths.someAnimation}
           />
         </div>
       </div>

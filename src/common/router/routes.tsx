@@ -5,7 +5,7 @@ export const AppRoutes = () => {
   return (
     <Routes>
       {pages.map(({ path, element }) => (
-        <Route path={path} element={element} />
+        <Route path={path} element={element} key={path} />
       ))}
     </Routes>
   );
