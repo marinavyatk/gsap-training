@@ -28,16 +28,16 @@ export const HomePage = () => {
             link={paths.footerAnimation}
           />
           <Card
-            header={"GSAP Animation 2"}
+            header={"Navbar Animation"}
             image={"/card-cover.png"}
             variant={"dark"}
-            link={paths.pinAnimation}
+            link={paths.navbarAnimation}
           />
           <Card
             header={"GSAP Animation 3"}
             image={"/card-cover.png"}
             variant={"color"}
-            link={paths.someAnimation}
+            link={paths.pinAnimation}
           />
         </div>
       </div>
